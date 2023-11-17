@@ -1,0 +1,1589 @@
+{
+  "externalProjects" : [
+    "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo",
+    {
+      "sourceRootPath" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "prune" : false,
+          "bundleId" : "Cuckoo",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "deploymentTargets" : {
+            "watchOS" : "4.0"
+          },
+          "name" : "Cuckoo_watchos",
+          "mergeable" : false,
+          "destinations" : [
+            "appleWatch"
+          ],
+          "settings" : {
+            "base" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/StubbingProxy.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Array+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/MockManager.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Utils.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/CallMatcherFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/ParameterMatcherFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/CuckooFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/BaseStubFunctionTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/VerifyProperty\/VerifyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedReadOnlyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubCall.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/Stub.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Matchable.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedThrowingProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenCallRealImplementationTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubThrowingFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/CallMatcher.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Set+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenReturnTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenDoNothingTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/Mock.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenThrowingTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenThrowTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Dictionary+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/VerificationProxy.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/ArgumentCaptor.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/__DoNotUse.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/MockManager+preconfigured.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/Mocked.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/ThreadLocal.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/DefaultValueRegistry.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/ParameterMatcher.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/MockBuilder.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/CreateMock.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubAction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/VerifyProperty\/VerifyReadOnlyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubNoReturnFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubNoReturnThrowingFunction.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "buildRules" : [
+
+          ],
+          "playgrounds" : [
+
+          ],
+          "environmentVariables" : {
+
+          },
+          "productName" : "Cuckoo",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "prune" : false,
+          "bundleId" : "Cuckoo",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "deploymentTargets" : {
+            "macOS" : "10.13"
+          },
+          "name" : "Cuckoo_macos",
+          "mergeable" : false,
+          "destinations" : [
+            "mac"
+          ],
+          "settings" : {
+            "base" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/MockManager+preconfigured.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/VerificationProxy.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenThrowingTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenDoNothingTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/Mocked.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubAction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedReadOnlyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/Mock.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenThrowTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/MockBuilder.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/ArgumentCaptor.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/Stub.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Matchable.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubCall.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/CuckooFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Utils.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/CallMatcherFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenReturnTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Dictionary+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/__DoNotUse.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubNoReturnFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Array+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenCallRealImplementationTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubThrowingFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/VerifyProperty\/VerifyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/CreateMock.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/ParameterMatcherFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/CallMatcher.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Set+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/StubbingProxy.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/VerifyProperty\/VerifyReadOnlyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/ThreadLocal.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedThrowingProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/DefaultValueRegistry.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubNoReturnThrowingFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/MockManager.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/BaseStubFunctionTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/ParameterMatcher.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubFunction.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "buildRules" : [
+
+          ],
+          "playgrounds" : [
+
+          ],
+          "environmentVariables" : {
+
+          },
+          "productName" : "Cuckoo",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "prune" : false,
+          "bundleId" : "Cuckoo",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "deploymentTargets" : {
+            "tvOS" : "12.0"
+          },
+          "name" : "Cuckoo_tvos",
+          "mergeable" : false,
+          "destinations" : [
+            "appleTv"
+          ],
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/MockManager+preconfigured.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/VerificationProxy.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenThrowingTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenDoNothingTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/Mocked.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedReadOnlyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubAction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/Mock.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenThrowTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/MockBuilder.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/ArgumentCaptor.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/Stub.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Matchable.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubCall.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/CuckooFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Utils.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/CallMatcherFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenReturnTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Dictionary+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Array+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubNoReturnFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/__DoNotUse.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubThrowingFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenCallRealImplementationTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/VerifyProperty\/VerifyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/CreateMock.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/ParameterMatcherFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/CallMatcher.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/ThreadLocal.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Set+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/StubbingProxy.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/VerifyProperty\/VerifyReadOnlyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubNoReturnThrowingFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/DefaultValueRegistry.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedThrowingProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/MockManager.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/BaseStubFunctionTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/ParameterMatcher.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubFunction.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "buildRules" : [
+
+          ],
+          "playgrounds" : [
+
+          ],
+          "environmentVariables" : {
+
+          },
+          "productName" : "Cuckoo",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "prune" : false,
+          "bundleId" : "Cuckoo",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "deploymentTargets" : {
+            "visionOS" : "1.0"
+          },
+          "name" : "Cuckoo_visionos",
+          "mergeable" : false,
+          "destinations" : [
+            "appleVision"
+          ],
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/MockManager+preconfigured.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/VerificationProxy.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenThrowingTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenDoNothingTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/Mocked.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubAction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedReadOnlyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/Mock.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenThrowTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/MockBuilder.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/ArgumentCaptor.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/Stub.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Matchable.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubCall.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/CuckooFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Utils.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/CallMatcherFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenReturnTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Dictionary+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/__DoNotUse.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubNoReturnFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Array+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenCallRealImplementationTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubThrowingFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/VerifyProperty\/VerifyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/CreateMock.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/ParameterMatcherFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/CallMatcher.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Set+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/StubbingProxy.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/VerifyProperty\/VerifyReadOnlyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/ThreadLocal.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedThrowingProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/DefaultValueRegistry.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubNoReturnThrowingFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/MockManager.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/BaseStubFunctionTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/ParameterMatcher.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubFunction.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "buildRules" : [
+
+          ],
+          "playgrounds" : [
+
+          ],
+          "environmentVariables" : {
+
+          },
+          "productName" : "Cuckoo",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        },
+        {
+          "scripts" : [
+
+          ],
+          "prune" : false,
+          "bundleId" : "Cuckoo",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "name" : "Cuckoo_ios",
+          "mergeable" : false,
+          "destinations" : [
+            "iPad",
+            "appleVisionWithiPadDesign",
+            "macCatalyst",
+            "macWithiPadDesign",
+            "iPhone"
+          ],
+          "settings" : {
+            "base" : {
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/MockManager+preconfigured.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/VerificationProxy.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenThrowingTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenDoNothingTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/Mocked.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedReadOnlyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubAction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/Mock.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/MockBuilder.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenThrowTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/ArgumentCaptor.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/Stub.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Matchable.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubCall.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/CuckooFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Utils.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/CallMatcherFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenReturnTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Dictionary+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/__DoNotUse.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubNoReturnFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Array+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubThrowingFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenCallRealImplementationTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/VerifyProperty\/VerifyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/CreateMock.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/ParameterMatcherFunctions.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/StubFunctionThenTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/CallMatcher.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Verification\/VerifyProperty\/VerifyReadOnlyProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Initialization\/ThreadLocal.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Mock\/StubbingProxy.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/Set+matchers.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubNoReturnThrowingFunction.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/DefaultValueRegistry.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/ToBeStubbedProperty\/ToBeStubbedThrowingProperty.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/MockManager.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/Trait\/BaseStubFunctionTrait.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Matching\/ParameterMatcher.swift"
+            },
+            {
+              "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Source\/Stubbing\/StubFunction\/StubFunction.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "buildRules" : [
+
+          ],
+          "playgrounds" : [
+
+          ],
+          "environmentVariables" : {
+
+          },
+          "productName" : "Cuckoo",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo\/Cuckoo.xcodeproj",
+      "resourceSynthesizers" : [
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "strings",
+            "stringsdict"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts",
+          "extensions" : [
+            "otf",
+            "ttf",
+            "ttc"
+          ]
+        }
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "Cuckoo"
+    }
+  ],
+  "externalDependencies" : [
+    "macos",
+    {
+      "Cuckoo" : [
+        {
+          "project" : {
+            "target" : "Cuckoo_macos",
+            "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo"
+          }
+        }
+      ]
+    },
+    "tvos",
+    {
+      "Cuckoo" : [
+        {
+          "project" : {
+            "target" : "Cuckoo_tvos",
+            "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo"
+          }
+        }
+      ]
+    },
+    "ios",
+    {
+      "Cuckoo" : [
+        {
+          "project" : {
+            "target" : "Cuckoo_ios",
+            "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo"
+          }
+        }
+      ]
+    },
+    "visionos",
+    {
+      "Cuckoo" : [
+        {
+          "project" : {
+            "target" : "Cuckoo_visionos",
+            "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo"
+          }
+        }
+      ]
+    },
+    "watchos",
+    {
+      "Cuckoo" : [
+        {
+          "project" : {
+            "target" : "Cuckoo_watchos",
+            "path" : "\/Users\/danielbac\/Documents\/tuist-cuckoo\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Cuckoo"
+          }
+        }
+      ]
+    }
+  ]
+}
